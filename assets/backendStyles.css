@@ -23,6 +23,15 @@
     width: 100%;
 }
 
+.botton {
+
+}
+.botton:checked
+{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 24);
+}
+
 .menu-bar a {
     float: left;
     color: #f2f2f2;
@@ -120,6 +129,7 @@
     margin-bottom: 1em;
     margin-top: 1em;
     text-align: left;
+    border-style: solid;
 }
 
 .vertical-form-box{
@@ -143,11 +153,13 @@
 
 }
 .vertical-form-box > input{
-background-color: #04AA6D;
+background-color: #E5E5E5;
 font-size: 14px;
 margin: 2px;
 margin-right: 1em;
 margin-left: 1em;
+border-radius: 2px;
+border-color: #1B9AAA;
 
 
 
